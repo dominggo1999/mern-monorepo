@@ -32,7 +32,8 @@ const App = () => {
   const [time, setTime] = useState('');
 
   const handleClick = async () => {
-    const res = await fetch(`${backendURL}/api/hello`);
+    const res = await fetch(`${backendURL}/hello`);
+    console.log(res);
     const { message, timestamp } = await res.json();
     setMessage(message);
     setTime(timestamp);

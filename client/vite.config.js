@@ -19,7 +19,7 @@ export default defineConfig(({ command, mode }) => {
     server: {
       proxy: {
         '/api': {
-          target: 'http://localhost:3001/api',
+          target: env.PROXY_URL || 'http://localhost:3001/api',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/api/, ''),
         },

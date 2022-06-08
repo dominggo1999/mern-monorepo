@@ -1,11 +1,11 @@
-### Minimal monorepo MERN stack boilerplate
+## Minimal monorepo MERN stack boilerplate
 
-##### Development 
+### Development 
   - Start backend and frontend concurrently ```npm start```
   - Start backend : ```npm run server:dev```
   - Start frontend : ```npm run client:dev```
 
-##### Stack
+### Stack
   - Client 
     - Vite
     - React 

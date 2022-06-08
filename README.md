@@ -7,7 +7,7 @@
 
 ### Deployment
   - Client
-  - Backend
+  - Backend\
     [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dominggo1999/mern-monorepo)
 
 ### Environment variables

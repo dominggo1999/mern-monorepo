@@ -2,7 +2,9 @@
   "name": "mern-monorepo-backend",
   "repository": "https://github.com/dominggo1999/mern-monorepo",
   "buildpacks": [
-    "heroku/nodejs"
+    {
+      "url": "heroku/nodejs"
+    }
   ],
   "env": {
     "PROJECT_PATH": {

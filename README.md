@@ -5,6 +5,10 @@
   - Start backend : ```npm run server:dev```
   - Start frontend : ```npm run client:dev```
 
+### Environment variables
+- Client 
+  - ```PROXY_URL=YOUR_BACKEND_URL```
+
 ### Stack
   - Client 
     - Vite

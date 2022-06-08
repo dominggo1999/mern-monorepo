@@ -1,6 +1,12 @@
 const express = require('express');
+const cors = require('cors');
 
 const app = express();
+
+// Middleware
+app.use(cors());
+app.use(express.json()); // based on body parser
+app.use(express.urlencoded({ extended: true }));
 
 app.get('/api', (req, res) => {
   res.send('<h1>Hello World</h1>');

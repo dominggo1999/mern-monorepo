@@ -1,0 +1,19 @@
+{
+  "name": "mern-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "/*"
+  ],
+  "scripts": {
+    "client:dev": "npm run dev --workspace=client",
+    "server:dev": "npm run dev --workspace=api",
+    "start": "concurrently --kill-others-on-fail \"npm run server:dev\"  \"npm run client:dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.2.1"
+  }
+}

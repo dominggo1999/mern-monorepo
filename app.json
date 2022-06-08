@@ -4,6 +4,9 @@
   "buildpacks": [
     {
       "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/timanovsky/subdir-heroku-buildpack"
     }
   ],
   "env": {

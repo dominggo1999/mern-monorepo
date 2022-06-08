@@ -3,10 +3,10 @@
   "repository": "https://github.com/dominggo1999/mern-monorepo",
   "buildpacks": [
     {
-      "url": "heroku/nodejs"
+      "url": "https://github.com/timanovsky/subdir-heroku-buildpack"
     },
     {
-      "url": "https://github.com/timanovsky/subdir-heroku-buildpack"
+      "url": "heroku/nodejs"
     }
   ],
   "env": {

@@ -9,11 +9,11 @@
   - Client
   - Backend\
     [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dominggo1999/mern-monorepo)
-    or\
+    \or\
 
 ### Environment variables
 - Client 
-  - ```PROXY_URL=YOUR_BACKEND_URL```
+  - ```BACKEND_URL=YOUR_BACKEND_URL```
 
 ### Stack
   - Client 

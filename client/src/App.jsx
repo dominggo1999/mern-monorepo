@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import tw, { styled } from 'twin.macro';
+import { backendURL } from './config/backendURL';
 
 export const Box = styled.div`
   ${tw`
@@ -31,7 +32,7 @@ const App = () => {
   const [time, setTime] = useState('');
 
   const handleClick = async () => {
-    const res = await fetch('/api/hello');
+    const res = await fetch(`${backendURL}/api/hello`);
     const { message, timestamp } = await res.json();
     setMessage(message);
     setTime(timestamp);

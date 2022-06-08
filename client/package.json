@@ -28,5 +28,8 @@
     "tailwindcss": "^2.2.15",
     "twin.macro": "^2.8.2",
     "vite": "^2.9.9"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }

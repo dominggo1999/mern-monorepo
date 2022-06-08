@@ -13,7 +13,7 @@
     "PROJECT_PATH": {
       "description": "Backend Code Repository",
       "required": true,
-      "value": "https://github.com/dominggo1999/mern-monorepo/tree/master/api"
+      "value": "api"
     }
   },
   "description": "A barebones Node.js app using Express"

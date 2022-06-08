@@ -1,5 +1,6 @@
 {
   "name": "@mern-monorepo/client",
+  "repository": "https://github.com/dominggo1999/mern-monorepo/tree/master/client",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

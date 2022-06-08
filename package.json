@@ -2,6 +2,7 @@
   "name": "mern-monorepo",
   "version": "1.0.0",
   "description": "",
+  "repository": "https://github.com/dominggo1999/mern-monorepo",
   "workspaces": [
     "/*"
   ],

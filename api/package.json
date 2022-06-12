@@ -2,6 +2,7 @@
   "name": "@mern-monorepo/api",
   "main": "api/index.js",
   "repository": "",
+  "type": "module",
   "scripts": {
     "start:serverless": "vercel dev",
     "start:serverful": "cross-env SERVERFUL=true node api/index.js",

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import tw, { styled } from 'twin.macro';
-import { backendURL } from './config/backendURL';
+import { API_URL as backendURL } from './config/backendURL';
 
 export const Box = styled.div`
   ${tw`

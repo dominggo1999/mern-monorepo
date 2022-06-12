@@ -1,8 +1,8 @@
-require('dotenv').config();
+import dotenv from 'dotenv';
+import express from 'express';
+import cors from 'cors';
 
-const express = require('express');
-const cors = require('cors');
-
+dotenv.config();
 const app = express();
 
 // Middleware
@@ -31,4 +31,4 @@ if (process.env.SERVERFUL) {
   });
 }
 
-module.exports = app;
+export default app;
